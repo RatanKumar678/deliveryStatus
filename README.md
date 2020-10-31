@@ -3,7 +3,7 @@
 - Password : 12345
 
 
-# Points Cover In CRUD App:
+# Points Cover In App:
 - Reactive From (With all necessary validation)
 - Lazy Loading (on contact-from)
 - Routing
