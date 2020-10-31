@@ -10,13 +10,37 @@ export class ContactDetailService {
      */
     private contactDetail: Contact[] = [
         {
+            address: 'Palasana,sikar,Rajasthan,332482',
+            itemStatus: 2,
+            name: 'Test Me',
+            noItems: 2,
+            phone: 9422655138,
+            totalAmount: 200,
+        },
+        {
+            address: 'Bt kawade road,Pune,MH-411003',
+            itemStatus: 3,
+            name: 'Ratan Kumar',
+            noItems: 23,
+            phone: 9284319315,
+            totalAmount: 1300,
+        },
+        {
+            address: 'Pune,MH-411003',
+            itemStatus: 1,
+            name: 'karan',
+            noItems: 23,
+            phone: 9284319315,
+            totalAmount: 1300,
+        },
+        {
             address: 'Bt kawade road,Pune,MH-411003',
             itemStatus: 2,
             name: 'Ratan Kumar',
             noItems: 23,
             phone: 9284319315,
             totalAmount: 1300,
-        }
+        },
     ];
 
     public itemStatusArr = [
